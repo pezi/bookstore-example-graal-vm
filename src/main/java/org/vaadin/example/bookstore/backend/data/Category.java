@@ -5,7 +5,9 @@ import java.util.Objects;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Category implements Serializable {
 
     @NotNull
